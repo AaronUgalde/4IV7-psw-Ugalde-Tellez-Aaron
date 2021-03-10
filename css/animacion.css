@@ -76,7 +76,7 @@
     display: inline-block;
     justify-content: center;
     align-items: center;
-    animation-name: animation_test;
+    animation-name: animacion_test;
     animation-duration: 2s;
     animation-direction:alternate;
     animation-iteration-count: infinite;
