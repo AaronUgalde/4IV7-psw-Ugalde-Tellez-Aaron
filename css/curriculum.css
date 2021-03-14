@@ -1,4 +1,8 @@
 *{
-    background: FF9FE5;
+    background: rgb(255, 212, 212);
     color: rgb(39, 39, 39);
+}
+
+aside{
+    background-color: rgb(43, 80, 170);
 }
