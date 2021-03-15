@@ -1,8 +1,49 @@
 *{
-    background: rgb(255, 212, 212);
-    color: rgb(39, 39, 39);
+    background-color: rgb(203, 238, 243);
+    color: #130204;
+}
+aside ul li a, aside ul, aside ul li{
+    color: rgb(203, 238, 243);
+    background-color: rgb(221, 45, 74); 
 }
 
 aside{
-    background-color: rgb(43, 80, 170);
+    background-color: rgb(221, 45, 74); 
+    width: 10%;
+    height: 100%; 
+    float: left;
 }
+
+aside img{
+    width: 100%;
+    height: 100%;
+}
+
+article *{
+    width: 90%;
+    height: 100%;
+    float: right;
+    background-color: #F26A8D;
+    text-align: left;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+}
+
+header nav h1{
+    display: inline;
+}
+
+header nav a{
+    display: inline-block;
+    float: right;
+}
+
+header *{
+    background-color: #F49CBB;
+    text-align: center;
+}
+
+
