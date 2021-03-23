@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border-radius: 1%;
+    background-color: #8bbd8b;
+    display: inline;
+    width: 80%;
+}
+
+section{
+    float: right;
+    width: 80%;
+}
+
+body{
+    background-image: url("../fondo.jpg");
+    justify-content: center;
+    display: flex;
+}
+
+aside{
+    float: right;
+    width: 20%;
+    background-color: #c1cc99;
+}
+
+aside a{
+    display: block;
+}
+
+footer{
+    clear: both;
+}
+
+img{
+    width: 30%;
+    float: right;
+}
+
+article p {
+    width: 70%;
+    float: right;
+}
+
+header {
+    border: orange 10px solid;
+    background-color: brown;
+    text-align: center;
+}
+
+nav {
+    border: orange 5px solid;
+    background-color: red;
+    text-align: center;
+}
+
+#¿Quees{
+    background-color:green ;
+}
+
+#Loselementos{
+    background-color: aqua;
+}
+
+#Elavatar{
+    background-color: red;
+}
+
+#Losespiritus{
+    background-color:  #804000;
+}
+
+article{
+    text-align: center;
+}
+
+figcaption{
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+    background-color: blueviolet;
+    padding: 10px;
+}
