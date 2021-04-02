@@ -46,8 +46,6 @@ function validar(formulario){
 
     var checkStr = formulario.edad.value;
 
-    var allvalid = true;
-
     for(var i = 0; i < checkStr.length; i++){
         var ch = checkStr.charAt(i);
         for(var j = 0; j < checkOK.length; j++)

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/problema2.css">
+    <script src="./js/problema2.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>inserte los valores de las ventas del mes</h1>
+    </header>
+    <form action="problema2.html" method="get" onsubmit="return validar(this)">
+        <p>venta 1</p>
+        <input type="text" name="venta1">
+        <p>venta 2</p>
+        <input type="text" name="venta2">
+        <p>venta 3</p>
+        <input type="text" name="venta3">
+        <br>
+        <input type="reset" value="borrar">
+        <input type="submit" value="enviar datos">
+        <p>por comision</p>
+        <input type="text" readonly="true" name="comision">
+        <p>total</p>
+        <input type="text" readonly="true" name="total">
+    </form>
+</body>
+</html>
