@@ -1,0 +1,11 @@
+header{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    border: 10px outset blueviolet;
+}
+
+body{
+    text-align: center;
+    background-color: aquamarine;
+}
