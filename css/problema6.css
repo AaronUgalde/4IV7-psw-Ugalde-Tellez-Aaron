@@ -1,0 +1,11 @@
+header{
+    background-color: blueviolet;
+    color: azure;
+    text-align: center;
+    border: 5px double blue;
+}
+
+body{
+    text-align: center;
+    background-color: bisque;
+}

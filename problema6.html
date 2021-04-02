@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/problema6.css">
+    <script src="./js/problema6.js"></script>
+    <title>problema 6</title>
+</head>
+<body>
+    <header>
+        <h1>
+            calcular cuantos años tienes
+        </h1>
+    </header>
+    <form action="problema6.html" method="get" onsubmit="return validar(this)">
+        <p>inserte el año en que nacio</p>
+        <input type="text" name="año">
+        <p>inserte el mes en que nacio</p>
+        <input type="text" name="mes">
+        <p>inserte el dia de nacimiento</p>
+        <input type="text" name="dia">
+        <br>
+        <input type="reset" value="borrar">
+        <input type="submit" value="enviar datos">
+        <br>
+        <input type="text" readonly="true" name="años">
+        </form>
+</body>
+</html>
