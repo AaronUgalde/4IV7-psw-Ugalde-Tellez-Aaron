@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/problema5.css">
+    <script src="./js/problema5.js"></script>
+    <title>Problema 5</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentaje de niños y niñas en el salon</h1>
+    </header>
+    <form action="problema5.html" method="get" onsubmit="return validar(this)">
+        <p>cantidad de niños y niñas en el salon</p>
+        <input type="text" name="cantidad">
+        <p>cantida de niños en el salon</p>
+        <input type="text" name="niños">
+        <p>cantidad de niñas en el salon</p>
+        <input type="text" name="niñas">
+        <br>
+        <input type="reset" value="borrar">
+        <input type="submit" value="enviar datos">
+        <p>Porcentaje de niños</p>
+        <input type="text" name="porcentajeNiños" readonly="true">
+        <p>Porcentaje de niñas</p>
+        <input type="text" name="porcentajeNiñas" readonly="true">
+    </form>
+</body>
+</html>
