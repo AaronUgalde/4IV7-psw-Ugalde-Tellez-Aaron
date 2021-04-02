@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/problema3.css">
+    <script src="./js/problema3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cuanto debes de pagar</h1>
+    </header>
+    <form action="problema3.html" method="get" onsubmit="return validar(this)">
+        <p>ingrese la cantidad sin descuento</p>
+        <input type="text" name="total">
+        <input type="submit" value="enviar datos">
+        <input type="reset" value="borrar">
+        <p>total a pagar con 15% de descuento</p>
+        <input type="text" readonly="true" name="totalCon">
+    </form>
+</body>
+</html>
