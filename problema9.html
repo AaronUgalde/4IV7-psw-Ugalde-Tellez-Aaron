@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/problema9.css">
+    <script src="./js/problema9.js"></script>
+    <title>problema 9</title>
+</head>
+<body>
+    <header>
+        <h1>Cuanto te van a pagar</h1>
+    </header>
+    <form action="problema9.html" method="get" onsubmit="return validar(this)">
+        <p>cuantas horas trabajaste</p>
+        <input type="text" name="horas">
+        <p>cuantao te pagan por hora</p>
+        <input type="text" name="sueldo">
+        <br>
+        <input type="reset"  value="borrar">
+        <input type="submit" value="enviar datos">
+        <br>
+        <input type="text" readonly="true" name="utilidad">
+    </form>
+</body>
+</html>
