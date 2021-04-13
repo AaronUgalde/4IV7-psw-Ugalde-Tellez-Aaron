@@ -8,7 +8,7 @@ let almacenarTiempos = document.getElementById('almacenar tiempos');
 
 let tiempo =0;
 let intervalo = 0;
-let veificador = false;
+let verificador = false;
 
 init();
 
@@ -19,20 +19,20 @@ function init(){
 }
 
 function iniciarContador(){
-    if(!verificar){
-        var intervalo = setInterval(function (){
+    if(!verificador){
+        intervalo = setInterval(function (){
             tiempo += 0.01;
             temporizador.innerHTML = tiempo.toFixed(2);
         }, 10)
-        verificar = true;
+        verificador = true;
     }else{
-        verificar = false;
-        clearInterval(intervalo)
+        clearInterval(intervalo);
+        verificador = false;
     }
 }
 
 function resetearContador(){
-    verificar = false;
+    verificador = false;
     tiempo = 0;
     temporizador.innerHTML = tiempo + '.00';
     clearInterval(intervalo);
