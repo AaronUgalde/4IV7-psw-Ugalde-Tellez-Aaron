@@ -1,6 +1,6 @@
 function problema1(){
     var p1_input = document.querySelector('#p1-input').value;
-    var p1_array = p1_input.split(' ').reverse;
+    var p1_array = p1_input.split(' ').reverse();
 
     var p1_res = '';
     p1_array.forEach(function(palabra,i){
