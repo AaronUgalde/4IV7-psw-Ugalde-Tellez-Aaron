@@ -3,7 +3,7 @@ function problema1(){
     var p1_array = p1_input.split(' ').reverse;
 
     var p1_res = '';
-    p1_array.array.forEach(function(palabra,i){
+    p1_array.forEach(function(palabra,i){
         if(i != 0 || i != p1_array.length) p1_res += ' ';
         p1_res += palabra;
     });
