@@ -44,3 +44,31 @@ function problema2(){
 
     document.querySelector('#p2-output').textContent = 'Producto escalar minimo: '+p2_producto;
 }
+
+function problema3 (){
+    var esPal = /^([A-ZÑ]+,*)+$/;
+    var p3_input = document.querySelector('#p3-input').value;
+    var mapajiji = new Map();
+
+    if(!esPal.test(p3_input)){
+        alert("Ingrese solo palabras mayusculas separadas por comas en el problema 3")
+    }
+
+    var p3_array = p3_input.split(',');
+    var arregloBueno = [];
+
+    for (var i=0; i<p3_array.length;i++){
+        var palabra = p3_array[i];
+        var palabra2 = '';
+        for(var j=0; j<palabra.length; j++){
+            var ch = palabra.charAt(j)
+            if(j===palabra.lastIndexOf(ch)){
+                palabra2 += ch;
+            }
+        }
+        mapajiji.set(palabra2.length,palabra);
+        arregloBueno.push(palabra2.length)
+    }
+    arregloBueno = arregloBueno.sort();
+    document.querySelector('#p3-output').textContent = mapajiji.get(arregloBueno[arregloBueno.length-1])
+}
